@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99bda668-d77b-47c1-a40a-35eaccfa7a17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/playground/arrow-function.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/arrow-function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/async-basics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/callbacks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground/arrow-function.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -32,6 +34,24 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/async-basics.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/callbacks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -73,6 +93,8 @@
         <option value="$PROJECT_DIR$/notes.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/playground/arrow-function.js" />
+        <option value="$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/async-basics.js" />
+        <option value="$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/callbacks.js" />
       </list>
     </option>
   </component>
@@ -98,7 +120,13 @@
             <path>
               <item name="n-3-16-advanced-yargs" type="b2602c69:ProjectViewProjectNode" />
               <item name="n-3-16-advanced-yargs" type="462c0819:PsiDirectoryNode" />
-              <item name="playground" type="462c0819:PsiDirectoryNode" />
+              <item name="Sec4Lec26Async" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="n-3-16-advanced-yargs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="n-3-16-advanced-yargs" type="462c0819:PsiDirectoryNode" />
+              <item name="Sec4Lec26Async" type="462c0819:PsiDirectoryNode" />
+              <item name="weatherplayground" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -113,6 +141,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\WebstormProjects\n-3-16-advanced-yargs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,23 +169,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547711368006</updated>
-      <workItem from="1547711370411" duration="6113000" />
+      <workItem from="1547711370411" duration="8278000" />
     </task>
+    <task id="LOCAL-00001" summary="Arrow function">
+      <created>1548314426188</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548314426188</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6113000" />
+    <option name="totallyTimeSpent" value="8278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="719" y="0" width="1208" height="943" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24957265" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24957265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32962963" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -168,6 +210,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Arrow function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrow function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/notes-data.json">
@@ -198,6 +244,20 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/async-basics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/callbacks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
