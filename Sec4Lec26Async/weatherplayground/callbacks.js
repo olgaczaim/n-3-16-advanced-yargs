@@ -3,7 +3,9 @@ var getUser = (id, callback) => {
         id: id,
         name: 'Olgac'
     };
-    callback(user);
+    setTimeout(() => {
+        callback(user);
+    }, 3000);
 };
 
 getUser(11, (userObject) => {
