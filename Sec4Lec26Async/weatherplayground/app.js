@@ -1,15 +1,33 @@
-const request = require('request');
+const yargs = require('yargs');
 
-request({
-    url:'http://www.mapquestapi.com/geocoding/v1/address?key=pAENXEQxk0fFTaRsILYPWQrpe0FsImmX&location=ankara%20t%C3%BCrkiye',
-    json: true,
-    proxy: 'http://proxy.tnb.org:8080'
-}, (error, response, body) => {
-    console.log(JSON.stringify(body, undefined, 2));
-    console.log(`Lat: ${body.results[0].locations[0].latLng.lat}`);
-    console.log(body.results[0].locations[0].latLng.lng);
+const geocode = require('./geocode/geocode.js');
+const weather = require('./geocode/weather.js');
+
+const argv = yargs
+    .options({
+        a: {
+            demand: true,
+            alias: 'address',
+            describe: 'Address to fetch weather for',
+            string: true
+        }
+    })
+    .help()
+    .alias('help', 'h')
+    .argv;
+
+geocode.geocodeAddress(argv.address, (errorMessage, results) => {
+    if(errorMessage){
+        console.log(errorMessage);
+    }else {
+        weather.getWeather(results.lat,results.lng, (errorMessage, weatherResults) => {
+            if (errorMessage){
+                console.log(errorMessage);
+            } else {
+                //console.log(JSON.stringify(weatherResults, undefined, 2));
+                console.log(`it's currently ${weatherResults.temperature}. it feels like ${weatherResults.apparentTemperature} !!`)
+            }
+        });
+    }
 });
 
-//The latitude is stored on the response body here: body.results[0].locations[0].latLng.lat
-//
-//The longitude is stored on the response body here: body.results[0].locations[0].latLng.lng
