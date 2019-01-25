@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99bda668-d77b-47c1-a40a-35eaccfa7a17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/geocode/geocode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/geocode/weather.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/promise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/promise.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/promise.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state relative-caret-position="136">
+              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -143,8 +138,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="719" />
-    <option name="width" value="1208" />
+    <option name="x" value="598" />
+    <option name="width" value="1329" />
     <option name="height" value="943" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -219,7 +214,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547711368006</updated>
-      <workItem from="1547711370411" duration="25719000" />
+      <workItem from="1547711370411" duration="27128000" />
     </task>
     <task id="LOCAL-00001" summary="Arrow function">
       <created>1548314426188</created>
@@ -232,15 +227,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25719000" />
+    <option name="totallyTimeSpent" value="27128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="719" y="0" width="1208" height="943" extended-state="0" />
+    <frame x="598" y="0" width="1329" height="943" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24957265" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22618125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -355,8 +350,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sec4Lec26Async/weatherplayground/promise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state relative-caret-position="136">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
