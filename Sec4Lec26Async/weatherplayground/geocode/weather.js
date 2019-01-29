@@ -3,9 +3,9 @@ const request = require('request');
 var getWeather = (lat, lng, callback) => {
     request({
         url: `https://api.darksky.net/forecast/650bd7a306d04b42ce24ab1ab344c8bd/${lat},${lng}?lang=tr&units=si`,
-        json: true,
-        proxy: 'http://proxy.tnb.org:8080',
-        strictSSL : false
+        json: true
+        //proxy: 'http://proxy.tnb.org:8080',
+        //strictSSL : false
     }, (error, response, body) => {
         if (error){
             callback('Unable to connect to forecast.io servers.');

@@ -5,8 +5,8 @@ var geocodeAddress = (address) => {
         var address = encodeURIComponent(address);
         request({
             url: `http://www.mapquestapi.com/geocoding/v1/address?key=pAENXEQxk0fFTaRsILYPWQrpe0FsImmX&location=${address}`,
-            json: true,
-            proxy: 'http://proxy.tnb.org:8080'
+            json: true
+            //proxy: 'http://proxy.tnb.org:8080'
         }, (error, response, body) => {
             if (error){
                 rej('Unable to connect to service');
